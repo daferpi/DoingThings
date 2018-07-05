@@ -1,0 +1,6 @@
+framework module DoingThings {
+  umbrella header "DoingThings-umbrella.h"
+
+  export *
+  module * { export * }
+}

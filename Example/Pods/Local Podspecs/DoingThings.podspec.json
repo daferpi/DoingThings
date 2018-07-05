@@ -1,0 +1,58 @@
+{
+  "name": "DoingThings",
+  "version": "0.0.1",
+  "summary": "application that do things",
+  "description": "application that do things a lot",
+  "homepage": "https://github.com/daferpi/DoingThings",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "orta": "orta.therox@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/daferpi/DoingThings.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/{DoingThings.js,assets}",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "React/Core": [
+      "0.56.0"
+    ],
+    "React/CxxBridge": [
+      "0.56.0"
+    ],
+    "React/RCTAnimation": [
+      "0.56.0"
+    ],
+    "React/RCTImage": [
+      "0.56.0"
+    ],
+    "React/RCTLinkingIOS": [
+      "0.56.0"
+    ],
+    "React/RCTNetwork": [
+      "0.56.0"
+    ],
+    "React/RCTText": [
+      "0.56.0"
+    ],
+    "yoga": [
+      "0.56.0.React"
+    ],
+    "DoubleConversion": [
+      "1.1.5"
+    ],
+    "Folly": [
+      "2016.10.31.00"
+    ],
+    "glog": [
+      "0.3.4"
+    ]
+  }
+}
