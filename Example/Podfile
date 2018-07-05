@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DoingThings_Example' do
+  pod 'DoingThings', :path => '../'
+
+  target 'DoingThings_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
